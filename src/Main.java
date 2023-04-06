@@ -96,12 +96,9 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
-        int friday = 5;
-        for (int i = 1; i <= 31; i++) {
-            if (i == friday) {
+        int friday = 2;
+        for (; friday <= 31; friday += 7) {
                 System.out.println("Сегодня пятница, " + friday + "-е число. Необходимо подготовить отчет");
-                friday += 7;
-            }
         }
     }
     public static void task8 () {
